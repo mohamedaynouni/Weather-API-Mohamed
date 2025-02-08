@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Search</h1>
+        <input type="text" id="locationInput" placeholder="Enter city or zip code">
+        <button onclick="fetchWeather(true)">Current Weather</button>
+        <button onclick="fetchWeather(false)">Next 10 Days Weather</button>
+        <button onclick="resetSearch()">Reset</button>
+        <div id="weatherResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
